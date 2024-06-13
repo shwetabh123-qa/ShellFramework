@@ -1,0 +1,40 @@
+**************************************
+Inside executesqlandwritetocsv 
+ 
+
+********************************************
+Executing the Input SP query
+Connecting database ::Server=(LocalDB)\MSSQLLocalDB;Database=MyFirstDB;User ID = ;Password=;
+Connected database successfully...
+Contents of sql csv are :-StudentId,StudentName,Country,Age,Email
+1,shwetabah,India,36,shwetabh.srivastava@gmail.com,
+2,charu,china,35,chru.srivastava@gmail.com,
+3,ROHIT,RUSSIA,29,rohit.srivastava@gmail.com,
+4,Mohit,usa,25,mohit.srivastava@gmail.com,
+5,shipra,canada,29,shipra.srivastava@gmail.com,
+6,Brijesh,India,26,Tom B. Erichsen,
+
+  Data present in CSV at  Row [2] Column [ StudentId ] has value -->[ 2]
+Column names present in csv are ->0: StudentId
+Column names present in csv at index ->0 is ->: StudentId
+  Data present in CSV at  Row [3] Column [ StudentName ] has value -->[ ROHIT]
+Column names present in csv are ->1: StudentName
+Column names present in csv at index ->1 is ->: StudentName
+  Data present in CSV at  Row [5] Column [ Country ] has value -->[ canada]
+Column names present in csv are ->2: Country
+Column names present in csv at index ->2 is ->: Country
+  Data present in CSV at  Row [4] Column [ Age ] has value -->[ 25]
+Column names present in csv are ->3: Age
+Column names present in csv at index ->3 is ->: Age
+  Data present in CSV at  Row [1] Column [ Email ] has value -->[ shwetabh.srivastava@gmail.com]
+Column names present in csv are ->4: Email
+Column names present in csv at index ->4 is ->: Email
+  Data present in CSV at  Row [2] Column [ Age ] has value -->[ 35]
+Column names present in csv are ->3: Age
+Column names present in csv at index ->3 is ->: Age
+  Data present in CSV at  Row [3] Column [ Email ] has value -->[ rohit.srivastava@gmail.com]
+Column names present in csv are ->4: Email
+Column names present in csv at index ->4 is ->: Email
+  Data present in CSV at  Row [5] Column [ Email ] has value -->[ shipra.srivastava@gmail.com]
+Column names present in csv are ->4: Email
+Column names present in csv at index ->4 is ->: Email

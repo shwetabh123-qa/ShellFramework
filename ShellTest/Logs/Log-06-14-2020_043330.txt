@@ -1,0 +1,18 @@
+**************************************
+Inside executesqlandwritetocsv 
+ 
+
+********************************************
+Executing the Input SP query
+Connecting database ::Server=(LocalDB)\MSSQLLocalDB;Database=MyFirstDB;User ID = ;Password=;
+Connected database successfully...
+Contents of sql csv are :-StudentId,StudentName,Country
+1,shwetabah,India,
+2,charu,china,
+3,ROHIT,RUSSIA,
+4,Mohit,usa,
+5,shipra,canada,
+
+Column names present in csv at index ->0 is ->: StudentId
+Column names present in csv at index ->1 is ->: StudentName
+Column names present in csv at index ->2 is ->: Country
